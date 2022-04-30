@@ -1,0 +1,28 @@
+/* Author: @gonzalpzz @DisenoDigital.ar */
+/* Responsive Design */
+/* Estilos para Tablets */
+/*Portrait*/
+@media only screen and (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
+    .main ul{margin:0 0 20px 0}
+}
+/*landscape*/
+@media  only screen and  (min-width: 991.98px) and (max-width: 1199.98px)and (orientation:landscape) {
+}
+/* Estilos para Phones */
+/*portrait*/
+@media only screen and (max-width: 575.98px) and (orientation:portrait) {
+    .header1 a {
+        font-size: 8px;
+    }
+    .redes ul {
+        justify-content: center;
+        margin-right: 0;
+    }
+    .main img{
+        width: 350px;
+    }
+    .main ul{margin:0 0 50px 0}
+}
+/*landscape*/
+@media only screen and (min-width: 576px) and (max-width: 991.98px) and (orientation:landscape) {
+}

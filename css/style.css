@@ -1,0 +1,129 @@
+/* Author: @gonzalpzz @DisenoDigital.ar */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.cabecera{
+    background-image: url("C:/Users/Gonzalo/Desktop/web nueva/img/backg.jpg");
+} 
+.nav{
+    position: fixed;
+    z-index: 50;
+    background-color: #041741;
+    padding: 10px;
+    width: 100%;
+}
+nav img{
+    width: 50px;
+}
+nav p{
+    color: #fff;
+    display: inline;
+    margin-left: 20px;
+}
+.header1{
+    padding: 70px 0 20px 0;
+    text-align: center;
+}
+.titulo{
+    color: #62d4f9;
+}
+.header1 h4{
+    color: #fff;
+    font-size: 10px;
+    margin: 20px 0 30px 0;
+}
+.header1 a{
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #bababa;
+    border-radius: 5%;
+}
+.header1 a:hover{
+    color: #000;
+    background-color: #62d4f9;
+}
+.section-imagenes{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.imagenheader {
+    position: relative; 
+    display: inline-block; 
+    text-align: center; 
+    padding: 5px;
+}
+.textobox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #000;
+    font-size: larger;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    background-color: #d7d7d7;
+    opacity: 0.6;
+}
+.imagenheader img {
+    width: 250px;
+    height: 100px;
+    border-radius: 20%;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main img {
+    margin: 50px;
+    width: 420px;
+    height: 297px;
+    border-radius: 50%;
+}
+.main h5{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.main ul{
+    margin: 50px;    
+    align-self: center;
+}
+.main ul li{
+    padding: 10px;
+}
+
+.footer{
+    background-color: #041741;
+    width: 100%;
+}
+.redes ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+    padding-top: 30px;
+}
+.redes ul li{
+    padding: 10px;
+    list-style: none;
+}
+.redes ul li img{
+    width: 30px;
+}
+.derechos{
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    font-size: 8px;
+}
+.derechos p a{
+    text-decoration: none;
+}
+.derechos p a:visited, .derechos p a:link{
+    color: #fff;
+} 
